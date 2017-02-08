@@ -1,0 +1,200 @@
+.reveal {
+    font-family: "ETBembo";
+    font-size: 20pt;
+}
+
+.reveal .slides { text-align: left; }
+
+.reveal-footer {
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12pt;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    color: brown;
+}
+
+.reveal .slides section {
+    min-height: 500px;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    font-family: "ETBembo";
+    font-weight: 500;
+    color: inherit;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h4 {
+    text-transform: none;
+}
+
+.reveal h1 {font-size: 150%; font-weight: 600; margin-bottom: 50px; border-bottom: 1px solid blue;}
+.reveal h2 {font-size: 130%;}
+.reveal h3 {font-size: 120%;}
+.reveal h4 {font-size: 100%;}
+
+.reveal blockquote { 
+    font-style: normal; 
+    border: none;
+    box-shadow: none;
+    border-left: 3px solid #aaa;
+    font-size: inherit;
+    padding-left: 20px;
+    margin-left: 0;
+    width: 100%;
+    background: transparent;
+}
+
+.reveal blockquote p:first-child,
+.reveal blockquote p:last-child {
+    display: block;
+}
+
+.reveal blockquote blockquote {
+    border: none;
+    margin: 0;
+    text-align: center;
+}
+
+.reveal blockquote blockquote blockquote {
+    border: none;
+    margin: 0;
+    text-align: right;
+}
+
+
+.reveal p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.reveal p code,
+.reveal li code {
+    background: transparent;
+    font-size: 85%;
+}
+.reveal .MathJax { font-size: 85%; }
+.reveal code .MathJax { font-size: 85%; }
+
+.reveal pre {
+    font-size: 80%;
+    padding: 10px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    width: 100%;
+    border-radius: 0;
+}
+.reveal pre:first-child {
+    margin-top: 0;
+}
+.reveal .row:first-child {
+    margin-top: 0;
+}
+.reveal .row {
+    margin-top: 20px;
+}
+
+.reveal pre code {
+    padding: 20px;
+    max-height: 700px;
+}
+
+
+.reveal pre code.small,
+.reveal pre code.sm
+{
+    font-size: 80%;
+}
+
+.reveal .slides img {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.reveal .column {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.reveal .column:first-child {
+    padding-left: 0;
+}
+.reveal .column:last-child {
+    padding-right: 0;
+}
+
+.reveal .slide-number {
+    font-size: 20pt;
+    font-family: "Roboto";
+    font-weight: 300;
+    background: none;
+    color: black;
+}
+
+/* Undo bootstrap */
+
+hr {
+    border-color: #888;
+}
+
+blockquote blockquote {
+    border-left: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.reveal table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+code,
+pre {
+    color: inherit;
+}
+
+code i.template {
+    color: blue;
+    border: thin solid #aaa;
+    padding: 1px;
+    margin: 2px;
+    display: inline-block;
+    border-radius: 3px;
+}
+code i.template:hover {
+    transform: scale(1.2);
+    border: 3px solid red;
+}
+code i.template span {
+    color: blue !important;
+}
+
+.reveal section ul ul { font-size: 90%; }
+.reveal section ul {
+    margin-bottom: 20px;
+}
+
+.reveal section ul:last-child {
+    margin-bottom: 0px;
+}
+
+/* ------ Kens Plugins ---------- */
+.reveal section div.slideshow {
+    position: relative;
+}
+.reveal section div.slideshow .fragment {
+    display: none;
+}
+.reveal section div.slideshow .fragment.current-fragment {
+    display: block;
+}

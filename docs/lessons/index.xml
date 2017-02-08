@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Database Systems</title>
+    <link>/lessons/index.xml</link>
+    <description>Recent content in Lessons on Database Systems</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A summary of the talk</title>
+      <link>/lessons/00-summary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/00-summary/</guid>
+      <description>
+
+&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Looking at the historic records, before and including industrial revolution&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Tabular data, and the volume&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;____________&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data since the electronic revolution, 1950 - 1998&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Banking, data warehousing&lt;/p&gt;
+
+&lt;p&gt;The impact on business practices and competitive strategies&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Building customer database&lt;/p&gt;
+
+&lt;p&gt;Exchanging and trading customer data between corporations&lt;/p&gt;
+
+&lt;p&gt;Technology built to solve banking problems.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RDBMS&lt;/li&gt;
+&lt;li&gt;Enterprise programming: C++ / Java&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;_______________&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data since the Internet revolution, 1998 - 2010&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Personal communication&lt;/p&gt;
+
+&lt;p&gt;e-Commerce and massive transaction data&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Voice for everyone online.&lt;/p&gt;
+
+&lt;p&gt;Every product from everywhere.&lt;/p&gt;
+
+&lt;p&gt;All companies compete for customers, not revenue.  (Amazon with negative
+revenue).&lt;/p&gt;
+
+&lt;p&gt;Technology built to solve the Internet connectivity and &lt;em&gt;accessibility&lt;/em&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Networking and servers&lt;/li&gt;
+&lt;li&gt;Web programming: PHP / Javascript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_3&#34;&gt;____________________&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data since the Data revolution, 2010 - now&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The Web is a database of accumulated information.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Universal&lt;/em&gt; information availability&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Omniscient data accessibility and vunerability&lt;/p&gt;
+
+&lt;p&gt;Sustained data collection&lt;/p&gt;
+
+&lt;p&gt;The world has shrunk to be a &lt;em&gt;single&lt;/em&gt; (but highly distributed) database.&lt;/p&gt;
+
+&lt;p&gt;All companies are racing to build massive data centers and fighting to control
+the &lt;em&gt;same&lt;/em&gt; customer base (the entire population).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About the talk</title>
+      <link>/lessons/00-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/00-introduction/</guid>
+      <description>
+
+&lt;h1 id=&#34;first-slide-2&#34;&gt;First Slide 2&lt;/h1&gt;
+
+&lt;h1 id=&#34;the-race-of-men-s-400m-race&#34;&gt;The Race of Men&amp;rsquo;s 400m Race&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 3:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;There is always a story behind data.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&#34;slideshow&#34;&gt;
+    &lt;img class=&#34;fragment&#34; src=&#34;400m-1.png&#34;/&gt;
+    &lt;img class=&#34;fragment&#34; src=&#34;400m-2.png&#34;/&gt;
+    &lt;img class=&#34;fragment&#34; src=&#34;400m-3.png&#34;/&gt;
+    &lt;img class=&#34;fragment&#34; src=&#34;400m-4.png&#34;/&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;another-slide&#34;&gt;Another slide&lt;/h1&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Everywhere</title>
+      <link>/lessons/01-data-everywhere/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/01-data-everywhere/</guid>
+      <description>
+
+&lt;h1 id=&#34;data-everywhere&#34;&gt;Data everywhere&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;the-first-mcdonald-s-ledger-1959&#34;&gt;The first McDonald&amp;rsquo;s ledger, 1959&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;mcdonald-ledger-1959.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
+The sales ledger from Lou Groen’s opening day of business, January 13, 1959, at
+his first McDonald’s in Monfort Heights, Ohio. Image courtesy of Paul Groen.&lt;/p&gt;
+
+&lt;h1 id=&#34;new-york-city-burial-record-1830&#34;&gt;New York City Burial Record, 1830&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;burial-record-1830.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
+The Original Ledger of Burial Records, New York Marble Cemetery.
+&lt;a href=&#34;https://greenwichvillagehistory.wordpress.com/2012/11/13/&#34;&gt;Original source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;tycho-brahe-s-star-catalog-1602&#34;&gt;Tycho Brahe&amp;rsquo;s Star Catalog, 1602&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;tycho.jpg&#34; height=&#34;500px&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
+By 1592, Tycho had produced a catalogue of 777 stars, the first new catalogue
+known to the Latin West since the time of Ptolemy. This catalogue was printed
+for inclusion in the Astronomiae instauratae progymnasmata.&lt;/p&gt;
+
+&lt;h1 id=&#34;hockey-statistics-2014&#34;&gt;Hockey Statistics, 2014&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;hockey.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; NHL players of 2014&lt;/p&gt;
+
+&lt;h1 id=&#34;ebola-clinical-records-2015&#34;&gt;Ebola clinical records, 2015&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;ebola-2015.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; Tracking cases at the Liberian Ministry of Health and Social Welfare.
+&lt;a href=&#34;http://motherboard.vice.com/read/ebolas-paper-trail&#34;&gt;Original source&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-s-in-common&#34;&gt;What&amp;rsquo;s in common?&lt;/h1&gt;
+
+&lt;p&gt;&lt;center style=&#34;margin-top: 150px&#34;&gt;
+Tabular layout
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
