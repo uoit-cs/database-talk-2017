@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lessons on Database Systems</title>
-    <link>/lessons/</link>
+    <link>https://uoit-cs.github.io/database-talk-2017/lessons/</link>
     <description>Recent content in Lessons on Database Systems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://uoit-cs.github.io/database-talk-2017/lessons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Outline of the talk</title>
-      <link>/lessons/01-outline/</link>
+      <link>https://uoit-cs.github.io/database-talk-2017/lessons/01-outline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/01-outline/</guid>
+      <guid>https://uoit-cs.github.io/database-talk-2017/lessons/01-outline/</guid>
       <description>
 
 &lt;h1 id=&#34;a-brief-history-of-data-science&#34;&gt;A brief history of &lt;em&gt;Data Science&lt;/em&gt;&lt;/h1&gt;
@@ -93,10 +93,10 @@
     
     <item>
       <title>The history and innovation of data generation</title>
-      <link>/lessons/02-history/</link>
+      <link>https://uoit-cs.github.io/database-talk-2017/lessons/02-history/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/02-history/</guid>
+      <guid>https://uoit-cs.github.io/database-talk-2017/lessons/02-history/</guid>
       <description>
 
 &lt;h1 id=&#34;the-history&#34;&gt;The History&lt;/h1&gt;
@@ -226,7 +226,7 @@ Great cities start to form in America.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;strong&gt;Burial records&lt;/strong&gt; of New York City cemetery.&lt;/p&gt;
 
-&lt;h1 id=&#34;automation&#34;&gt;Automation&lt;/h1&gt;
+&lt;h1 id=&#34;mechanical-automation&#34;&gt;Mechanical Automation&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;columns 5:5:2&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
@@ -245,6 +245,180 @@ International Business Machine (IBM).&lt;/p&gt;
 
 &lt;p&gt;Machines are invited &lt;strong&gt;for the first time&lt;/strong&gt; to combat the explosion of the Big
 Data of 1800.&lt;/p&gt;
+
+&lt;h1 id=&#34;mobile-data-generation&#34;&gt;Mobile data generation&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;1867 - fountain pen 2.jpg&#34;&gt;&lt;/img&gt;
+&lt;img src=&#34;1867 - fountain pen.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; Mechanical innovation have created generations of never-seen before
+portable mobile tools for data recording and generation.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;
+&lt;img src=&#34;1900 - ernest hemingway.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;Ernest Hemingway&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;world-war&#34;&gt;World War&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+I &amp;amp; II
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;electronic-automation-1920-1950&#34;&gt;Electronic Automation: 1920 - 1950&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 6:6&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt;
+1928, 1929 &amp;amp; 1930 are years of the greatest discovery of mankind since the &lt;strong&gt;fire&lt;/strong&gt;
+&lt;i class=&#34;fa fa-fire&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-fire&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-fire&#34;&gt;&lt;/i&gt;
+.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1928 - kurt-godel.png&#34; width=180&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1929 - alan-turing.png&#34; width=180&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1930 - alonzo-church.png&#34; width=180&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1930 - turing machine.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;The war-time Turing Machine that decoded the Enigma crypto messaging system in
+1939.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_16&#34;&gt;___________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;about-the-human-discovery-of-the-millenia&#34;&gt;About the human &lt;em&gt;discovery&lt;/em&gt; of the millenia&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1928: Kurt Gödel - &lt;strong&gt;The Incompleteness Theorem&lt;/strong&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star-half-o&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star-o&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;discovered that any sufficiently useful automated reasoning
+system &lt;strong&gt;must incomplete&lt;/strong&gt;.  There are questions that can &lt;strong&gt;never&lt;/strong&gt; be answered
+by machines.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1929: Alan Turing - &lt;strong&gt;The Turing Machine&lt;/strong&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;discovered an exceedingly simple mechanical design, now known
+as the &lt;strong&gt;Turing Machine&lt;/strong&gt; that is provably the most powerful mechanical
+reasoning system.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;1930: Alonzo Church - &lt;strong&gt;$\lambda$-Calculus&lt;/strong&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star-half-o&#34;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;discovered a symbolic language that can be used to
+&lt;strong&gt;talk to&lt;/strong&gt; any computationally complete mechanical reasoning system.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_18&#34;&gt;__________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;their-significances&#34;&gt;Their significances&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Incompleteness Theorem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;No machine can function without an ultimate user.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The Turing Machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;All modern computers are built based on the Turing Machine.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;$\lambda$-Calculus&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;All modern programming languages contain $\lambda$-Calculus.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_20&#34;&gt;__________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;war-time-data-science&#34;&gt;War-time data science&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data encryption&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Germans used &lt;strong&gt;a device&lt;/strong&gt; (the Enigma) to &lt;strong&gt;encrypt their messages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data collection&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Mass survallience&lt;/strong&gt; of German communication using radio &lt;strong&gt;intercepts&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Data analysis&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;By performing &lt;strong&gt;massive data mining&lt;/strong&gt;, patterns are used to decode the secret
+messages.&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Decision support&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Frontline strategies&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; Read the &lt;strong&gt;red&lt;/strong&gt; words, and you think we are talking about 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;scale 0.9&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;break&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img src=&#34;1945 - atomic bomb.jpg&#34;&gt;&lt;/img&gt;
+&lt;h2 style=&#34;position:relative; top:-500px; left: 0; color: #fff; text-align:
+center; font-size: 145px;&#34;&gt;1945&lt;/h2&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&#34;note 1&#34;&gt;!&lt;/a&gt; Cloud Computing&lt;/p&gt;
+
+&lt;h1 id=&#34;computation-programming-and-all-that&#34;&gt;Computation, Programming and all that&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;1950 EDVAC.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Left: Robert Oppenheimer, direction of the Manhattan project&lt;/p&gt;
+
+&lt;p&gt;Right: John von Neumann, atomic energy and the hydrogen bomb&lt;/p&gt;
+
+&lt;p&gt;Behind: &lt;strong&gt;EDVAC the first general purpose computer&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     

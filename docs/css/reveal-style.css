@@ -188,6 +188,10 @@ code i.template span {
     margin-bottom: 0px;
 }
 
+.reveal .progress {
+    height: 6px;
+}
+
 body > .footnote { opacity: 0.3; }
 body > .footnote:hover { opacity: 1.0; }
 

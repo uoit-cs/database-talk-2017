@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/</loc>
+    <loc>https://uoit-cs.github.io/database-talk-2017/</loc>
   </url>
   
   <url>
-    <loc>/footer/</loc>
+    <loc>https://uoit-cs.github.io/database-talk-2017/footer/</loc>
   </url>
   
   <url>
-    <loc>/header/</loc>
+    <loc>https://uoit-cs.github.io/database-talk-2017/header/</loc>
   </url>
   
   <url>
-    <loc>/lessons/01-outline/</loc>
+    <loc>https://uoit-cs.github.io/database-talk-2017/lessons/01-outline/</loc>
   </url>
   
   <url>
-    <loc>/lessons/02-history/</loc>
+    <loc>https://uoit-cs.github.io/database-talk-2017/lessons/02-history/</loc>
   </url>
   
 </urlset>
