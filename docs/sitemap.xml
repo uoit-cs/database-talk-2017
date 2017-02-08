@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
     <loc>/footer/</loc>
   </url>
   
@@ -10,25 +14,11 @@
   </url>
   
   <url>
-    <loc>/lessons/00-summary/</loc>
+    <loc>/lessons/01-outline/</loc>
   </url>
   
   <url>
-    <loc>/lessons/00-introduction/</loc>
-  </url>
-  
-  <url>
-    <loc>/lessons/01-data-everywhere/</loc>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/lessons/</loc>
-    <priority>0</priority>
+    <loc>/lessons/02-history/</loc>
   </url>
   
 </urlset>

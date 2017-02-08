@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <title>About the talk</title>
+        <title>Outline of the talk</title>
 
         <link rel="stylesheet" href="/css/bootstrap.css">
         <link rel="stylesheet" href="/css/fonts/fonts.css">
@@ -37,27 +37,80 @@
         <div class="reveal" type="slide">
             <div class="slides" style="opacity: 0">
 
-<h1 id="first-slide-2">First Slide 2</h1>
+<h1 id="a-brief-history-of-data-science">A brief history of <em>Data Science</em></h1>
+
+<p><a href="highlight">!</a></p>
+
+<h1 id="why-do-we-care-about-data">Why do we care about data?</h1>
+
+<ul>
+<li><p>Data is generated from stories.</p></li>
+
+<li><p>If we can find out about the stories, we gain insight.</p></li>
+</ul>
 
 <h1 id="the-race-of-men-s-400m-race">The Race of Men&rsquo;s 400m Race</h1>
 
-<p><a href="columns 3:">!</a></p>
+<p>Let&rsquo;s look at the story of the Men&rsquo;s 400m world record times over the years.</p>
 
-<p>There is always a story behind data.</p>
-
-<p><a href="split">!</a></p>
+<p><br><br></p>
 
 <div class="slideshow">
-    <img class="fragment" src="400m-1.png"/>
-    <img class="fragment" src="400m-2.png"/>
-    <img class="fragment" src="400m-3.png"/>
-    <img class="fragment" src="400m-4.png"/>
+    <div class="fragment row">
+        <div class="col-xs-8">
+            <img src="400m-1.png"/>
+        </div>
+        <div class="col-xs-4">
+            <p>The most recent record was set in 2016 at Rio de Janeiro, Brazil by
+            Wayde van Niekerk by breaking a 17 year-old record, previously set back
+            in 1999.</p>
+        </div>
+    </div>
+    <div class="fragment row">
+        <div class="col-xs-8">
+            <img src="400m-2.png"/>
+        </div>
+        <div class="col-xs-4">
+            <p>But such droughts of record breaking are not very common.  There
+            have been two times in history that the records were repeately
+            broken in quick succession.</p>
+        </div>
+    </div>
+    <div class="fragment row">
+        <div class="col-xs-8">
+            <img src="400m-3.png"/>
+        </div>
+        <div class="col-xs-4">
+            <p>Once in 1939-1941, during the WWII, records were set and broken
+            in rapid succession by athlets from Nazi
+            Germany and USA.</p>
+        </div>
+    </div>
+    <div class="fragment row">
+        <div class="col-xs-8">
+            <img src="400m-4.png"/>
+        </div>
+        <div class="col-xs-4">
+            <p> Another time in the late 1960s, records were broken by a series
+            of black athletes (Tommie Smith, 1967 and Larry James, 1968) in USA,
+            coinciding with the <i>civil rights movement</i>.
+            </p>
+        </div>
+    </div>
 </div>
 
-<h1 id="another-slide">Another slide</h1>
+<h1 id="this-talk-is-about">This talk is about</h1>
+
+<ul>
+<li><p>Socio-economical opportunties of data over the last 5000 years (from 3100 B.C.
+2017 A.D.)</p></li>
+
+<li><p>The reactionary invention of technology to gather and analyze data, and</p></li>
+
+<li><p>the role of Computer Science and Data Science in the emerging economy</p></li>
+</ul>
 </div>
         </div>
-
         <div class="footnote" style="position: fixed; 
             bottom:0; 
             left:0;
@@ -66,7 +119,7 @@
             font-weight: 600;
             font-size: 12pt;
             color: #88a;">
-            <div class="btn-group btn-group-sm">
+            <div class="btn-group-vertical btn-group-sm">
                 <a href="#" class="btn btn-default cmd-fullscreen">
                     <i class="fa fa-arrows-alt"></i></a>
                 <a href="?print-pdf" class="btn btn-default cmd" style="color:red">
@@ -185,10 +238,8 @@
                 transition: "zoom",
                 transitionSpeed: "fast",
 
-                chalkboard: { 
-                    
-                    
-                },
+                
+
 
 
 				
@@ -199,11 +250,11 @@
                         callback: function() { hljs.initHighlightingOnLoad(); } 
                     },
                     {src: '/reveal.js/plugin/hljslinenumber/index.js', async: true},
-                    
                     {src: '/reveal.js/plugin/math/math.js', async: true },
                     {src: '/reveal.js/plugin/multicolumn/multicolumn.js', async: true },
                     {src: '/reveal.js/plugin/kensextensions/main.js', async: true },
                     {src: '/reveal.js/plugin/pdfviewer/pdfviewer.js', async: true},
+                    
                 ],
 			});
             Reveal.addEventListener('ready', function() {

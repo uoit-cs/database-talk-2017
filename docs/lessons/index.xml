@@ -2,186 +2,249 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lessons on Database Systems</title>
-    <link>/lessons/index.xml</link>
+    <link>/lessons/</link>
     <description>Recent content in Lessons on Database Systems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/lessons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A summary of the talk</title>
-      <link>/lessons/00-summary/</link>
+      <title>Outline of the talk</title>
+      <link>/lessons/01-outline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/lessons/00-summary/</guid>
+      <guid>/lessons/01-outline/</guid>
       <description>
 
-&lt;h1 id=&#34;summary&#34;&gt;Summary&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Looking at the historic records, before and including industrial revolution&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Tabular data, and the volume&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;____________&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Data since the electronic revolution, 1950 - 1998&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Banking, data warehousing&lt;/p&gt;
-
-&lt;p&gt;The impact on business practices and competitive strategies&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Building customer database&lt;/p&gt;
-
-&lt;p&gt;Exchanging and trading customer data between corporations&lt;/p&gt;
-
-&lt;p&gt;Technology built to solve banking problems.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RDBMS&lt;/li&gt;
-&lt;li&gt;Enterprise programming: C++ / Java&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;toc_2&#34;&gt;_______________&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Data since the Internet revolution, 1998 - 2010&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Personal communication&lt;/p&gt;
-
-&lt;p&gt;e-Commerce and massive transaction data&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Voice for everyone online.&lt;/p&gt;
-
-&lt;p&gt;Every product from everywhere.&lt;/p&gt;
-
-&lt;p&gt;All companies compete for customers, not revenue.  (Amazon with negative
-revenue).&lt;/p&gt;
-
-&lt;p&gt;Technology built to solve the Internet connectivity and &lt;em&gt;accessibility&lt;/em&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Networking and servers&lt;/li&gt;
-&lt;li&gt;Web programming: PHP / Javascript&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;toc_3&#34;&gt;____________________&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Data since the Data revolution, 2010 - now&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The Web is a database of accumulated information.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Universal&lt;/em&gt; information availability&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Omniscient data accessibility and vunerability&lt;/p&gt;
-
-&lt;p&gt;Sustained data collection&lt;/p&gt;
-
-&lt;p&gt;The world has shrunk to be a &lt;em&gt;single&lt;/em&gt; (but highly distributed) database.&lt;/p&gt;
-
-&lt;p&gt;All companies are racing to build massive data centers and fighting to control
-the &lt;em&gt;same&lt;/em&gt; customer base (the entire population).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About the talk</title>
-      <link>/lessons/00-introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/00-introduction/</guid>
-      <description>
-
-&lt;h1 id=&#34;first-slide-2&#34;&gt;First Slide 2&lt;/h1&gt;
-
-&lt;h1 id=&#34;the-race-of-men-s-400m-race&#34;&gt;The Race of Men&amp;rsquo;s 400m Race&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;columns 3:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;There is always a story behind data.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
-
-&lt;div class=&#34;slideshow&#34;&gt;
-    &lt;img class=&#34;fragment&#34; src=&#34;400m-1.png&#34;/&gt;
-    &lt;img class=&#34;fragment&#34; src=&#34;400m-2.png&#34;/&gt;
-    &lt;img class=&#34;fragment&#34; src=&#34;400m-3.png&#34;/&gt;
-    &lt;img class=&#34;fragment&#34; src=&#34;400m-4.png&#34;/&gt;
-&lt;/div&gt;
-
-&lt;h1 id=&#34;another-slide&#34;&gt;Another slide&lt;/h1&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data Everywhere</title>
-      <link>/lessons/01-data-everywhere/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/lessons/01-data-everywhere/</guid>
-      <description>
-
-&lt;h1 id=&#34;data-everywhere&#34;&gt;Data everywhere&lt;/h1&gt;
+&lt;h1 id=&#34;a-brief-history-of-data-science&#34;&gt;A brief history of &lt;em&gt;Data Science&lt;/em&gt;&lt;/h1&gt;
 
 &lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
-&lt;h1 id=&#34;the-first-mcdonald-s-ledger-1959&#34;&gt;The first McDonald&amp;rsquo;s ledger, 1959&lt;/h1&gt;
+&lt;h1 id=&#34;why-do-we-care-about-data&#34;&gt;Why do we care about data?&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src=&#34;mcdonald-ledger-1959.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Data is generated from stories.&lt;/p&gt;&lt;/li&gt;
 
+&lt;li&gt;&lt;p&gt;If we can find out about the stories, we gain insight.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;the-race-of-men-s-400m-race&#34;&gt;The Race of Men&amp;rsquo;s 400m Race&lt;/h1&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at the story of the Men&amp;rsquo;s 400m world record times over the years.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&#34;slideshow&#34;&gt;
+    &lt;div class=&#34;fragment row&#34;&gt;
+        &lt;div class=&#34;col-xs-8&#34;&gt;
+            &lt;img src=&#34;400m-1.png&#34;/&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-xs-4&#34;&gt;
+            &lt;p&gt;The most recent record was set in 2016 at Rio de Janeiro, Brazil by
+            Wayde van Niekerk by breaking a 17 year-old record, previously set back
+            in 1999.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;fragment row&#34;&gt;
+        &lt;div class=&#34;col-xs-8&#34;&gt;
+            &lt;img src=&#34;400m-2.png&#34;/&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-xs-4&#34;&gt;
+            &lt;p&gt;But such droughts of record breaking are not very common.  There
+            have been two times in history that the records were repeately
+            broken in quick succession.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;fragment row&#34;&gt;
+        &lt;div class=&#34;col-xs-8&#34;&gt;
+            &lt;img src=&#34;400m-3.png&#34;/&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-xs-4&#34;&gt;
+            &lt;p&gt;Once in 1939-1941, during the WWII, records were set and broken
+            in rapid succession by athlets from Nazi
+            Germany and USA.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;fragment row&#34;&gt;
+        &lt;div class=&#34;col-xs-8&#34;&gt;
+            &lt;img src=&#34;400m-4.png&#34;/&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;col-xs-4&#34;&gt;
+            &lt;p&gt; Another time in the late 1960s, records were broken by a series
+            of black athletes (Tommie Smith, 1967 and Larry James, 1968) in USA,
+            coinciding with the &lt;i&gt;civil rights movement&lt;/i&gt;.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;this-talk-is-about&#34;&gt;This talk is about&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Socio-economical opportunties of data over the last 5000 years (from 3100 B.C.
+2017 A.D.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The reactionary invention of technology to gather and analyze data, and&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;the role of Computer Science and Data Science in the emerging economy&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The history and innovation of data generation</title>
+      <link>/lessons/02-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/02-history/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-history&#34;&gt;The History&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-analog-days&#34;&gt;The analog days&lt;/h2&gt;
+
+&lt;h1 id=&#34;3000-b-c-the-beginning-of-data-storage&#34;&gt;3000 B.C.: The beginning of data storage&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;0 - clay tablet.jpg&#34;/ height=&#34;400px&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
-The sales ledger from Lou Groen’s opening day of business, January 13, 1959, at
-his first McDonald’s in Monfort Heights, Ohio. Image courtesy of Paul Groen.&lt;/p&gt;
+This is a &lt;em&gt;Sumerian&lt;/em&gt; clay tablet.&lt;/p&gt;
 
-&lt;h1 id=&#34;new-york-city-burial-record-1830&#34;&gt;New York City Burial Record, 1830&lt;/h1&gt;
+&lt;p&gt;It is significant in that this is the &lt;strong&gt;first recorded writing system&lt;/strong&gt; with
+alphabets and a numbering system.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;burial-record-1830.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;Data is generated systematically, and permanently stored on clay tablets such as
+this one.&lt;/p&gt;
+&lt;/blockquote&gt;
 
+&lt;h1 id=&#34;toc_3&#34;&gt;________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;the-motivation&#34;&gt;The motivation&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Historic archival&lt;/li&gt;
+&lt;li&gt;Legal and political documentation&lt;/li&gt;
+&lt;li&gt;Long distance communication (between villages)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;the-innovation&#34;&gt;The innovation&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;An alphabet-based writing system
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star&#34;&gt;&lt;/i&gt;
+&lt;i class=&#34;fa fa-star-half-o&#34;&gt;&lt;/i&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Clay that are baked into permanent and portable tablets&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt; Global data volume $&amp;lt; 1$ kB&lt;/p&gt;
+
+&lt;h1 id=&#34;1400-a-d-the-beginning-of-data-duplication&#34;&gt;1400 A.D.: The beginning of data duplication&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;1400 - writing.jpg&#34; height=400px /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;note 5&#34;&gt;!&lt;/a&gt;
+&lt;strong&gt;Scriptorium&lt;/strong&gt; = &lt;code&gt;Writing&lt;/code&gt; + &lt;code&gt;Place&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Medieval monasteries were &lt;em&gt;office spaces&lt;/em&gt; to produce books by manual
+transcription by men of faith.  This produced most of the books in Italy and
+the region in 1400-1600.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt; Global data volume $&amp;lt; 1$ MB&lt;/p&gt;
+
+&lt;h1 id=&#34;1400-1500-a-d-movable-types&#34;&gt;1400 - 1500 A.D.: Movable types&lt;/h1&gt;
+
+&lt;div&gt;
+    &lt;img src=&#34;1404 - movable types.jpg&#34;&gt;&lt;/img&gt;
+    &lt;br&gt;
+    &lt;img src=&#34;1500 - movable type.png&#34; height=200&gt;&lt;/img&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;note 6&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Movable types made mass printing possible.&lt;/p&gt;
+
+&lt;p&gt;Labours in scriptoriums replaced by printing presses.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt; Global data volume $\simeq 1$ GB.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;1500-a-new-source-of-data-science&#34;&gt;1500: A new source of data: &lt;em&gt;Science&lt;/em&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 6:6&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1500 - tycho univ.gif&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1500 - tycho brahe.jpg&#34; height=500&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; Observation log of &lt;strong&gt;Tycho Brahe&lt;/strong&gt; in 1500&amp;rsquo;s.&lt;/p&gt;
+
+&lt;h1 id=&#34;another-300-years-passed&#34;&gt;Another 300 years passed&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Welcome to the new world.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_10&#34;&gt;_______________________&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Human data gathering&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Human data analytics&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Human consumption&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;1800-another-source-of-data-cities&#34;&gt;1800: Another source of data: Cities&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;1830 - burial record.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
-The Original Ledger of Burial Records, New York Marble Cemetery.
-&lt;a href=&#34;https://greenwichvillagehistory.wordpress.com/2012/11/13/&#34;&gt;Original source&lt;/a&gt;&lt;/p&gt;
+Great cities start to form in America.&lt;/p&gt;
 
-&lt;h1 id=&#34;tycho-brahe-s-star-catalog-1602&#34;&gt;Tycho Brahe&amp;rsquo;s Star Catalog, 1602&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Great census of 1890 of the United States&lt;/li&gt;
+&lt;li&gt;The great census of 1959 of Great Britain.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;img src=&#34;tycho.jpg&#34; height=&#34;500px&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;strong&gt;Burial records&lt;/strong&gt; of New York City cemetery.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt;
-By 1592, Tycho had produced a catalogue of 777 stars, the first new catalogue
-known to the Latin West since the time of Ptolemy. This catalogue was printed
-for inclusion in the Astronomiae instauratae progymnasmata.&lt;/p&gt;
+&lt;h1 id=&#34;automation&#34;&gt;Automation&lt;/h1&gt;
 
-&lt;h1 id=&#34;hockey-statistics-2014&#34;&gt;Hockey Statistics, 2014&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;columns 5:5:2&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;hockey.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1808 - Fatoni.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; NHL players of 2014&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fatoni&lt;/strong&gt; typewriter (1808), invited to help his blind sister to write.&lt;/p&gt;
 
-&lt;h1 id=&#34;ebola-clinical-records-2015&#34;&gt;Ebola clinical records, 2015&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;ebola-2015.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;1890 - herman hollerith.jpg&#34; height=300&gt;&lt;/img&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;note&#34;&gt;!&lt;/a&gt; Tracking cases at the Liberian Ministry of Health and Social Welfare.
-&lt;a href=&#34;http://motherboard.vice.com/read/ebolas-paper-trail&#34;&gt;Original source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Herman Hollerith&lt;/strong&gt; and his tabulating machine, later renamed to the
+International Business Machine (IBM).&lt;/p&gt;
 
-&lt;h1 id=&#34;what-s-in-common&#34;&gt;What&amp;rsquo;s in common?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;split note&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;center style=&#34;margin-top: 150px&#34;&gt;
-Tabular layout
-&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;Machines are invited &lt;strong&gt;for the first time&lt;/strong&gt; to combat the explosion of the Big
+Data of 1800.&lt;/p&gt;
 </description>
     </item>
     

@@ -17,7 +17,7 @@
 }
 
 .reveal .slides section {
-    min-height: 500px;
+    height: 700px;
 }
 
 .reveal h1,
@@ -187,6 +187,9 @@ code i.template span {
 .reveal section ul:last-child {
     margin-bottom: 0px;
 }
+
+body > .footnote { opacity: 0.3; }
+body > .footnote:hover { opacity: 1.0; }
 
 /* ------ Kens Plugins ---------- */
 .reveal section div.slideshow {
