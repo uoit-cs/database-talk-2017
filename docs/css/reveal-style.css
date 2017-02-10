@@ -37,8 +37,8 @@
 
 .reveal h1 {font-size: 150%; font-weight: 600; margin-bottom: 50px; border-bottom: 1px solid blue;}
 .reveal h2 {font-size: 130%;}
-.reveal h3 {font-size: 120%;}
-.reveal h4 {font-size: 100%;}
+.reveal h3 {font-size: 120%; text-align: center;}
+.reveal h4 {font-size: 100%; text-align: right;}
 
 .reveal blockquote { 
     font-style: normal; 
