@@ -1,4 +1,3 @@
-baseURL = "https://uoit-cs.github.io/database-talk-2017/"
 languageCode = "en-us"
 title = "Database Systems"
 publishDir = "docs"

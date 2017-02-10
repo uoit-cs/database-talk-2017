@@ -275,14 +275,15 @@ The war-time Turing Machine that decoded the Enigma crypto messaging system in
 
 - Data analysis
 
-    > By performing **massive data mining**, patterns are used to decode the secret
+    > By performing **massive data mining**, patterns are used to **decode** the secret
     > messages.
 
 - Decision support
 
     > Frontline strategies
 
-[!](box) Read the **red** words, and you think we are talking about 2017.
+[!](box) **Mass surveillience** / *intercepts* **encrypted messages** /
+**data mining** / **decode** in 1940, WWII
 
 [!](scale 0.9)
 
@@ -312,6 +313,27 @@ Computation, Programming and all that
 > Right: John von Neumann, atomic energy and the hydrogen bomb
 >
 > Behind: **EDVAC the first general purpose computer**
+
+[!](box) <i class="fa fa-info-circle"></i> Global data volume $> 1$ TB
+
+
+
+
+
+
+# Review: 3000 B.C. - 1950
+
+
+| Time period | Data source | Data processor | Data consumption |
+|-------------|----------------|-----------------|------------------|
+| 3000 BC - 1800s A.D. | Human             | Human              | Human |
+| 1890 - 1920          | Human             | Mechanical         | Human |
+| 1920 - 1950          | Huamn, Electronic | Electro-mechanical | Human |
+
+
+
+
+
 
 
 
