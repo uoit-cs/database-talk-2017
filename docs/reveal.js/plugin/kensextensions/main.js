@@ -116,6 +116,7 @@
             }).wrapInner(div);
             $a.detach();
         }
+        // =========================================
         else if(cmd[0] == "middle") {
             var div = $("<div>").css({
                 display: "flex",
@@ -150,6 +151,56 @@
             });
             $a.detach();
         }
+        // =========================================
+        else if(cmd[0] == "fragments") {
+            var $ul = $a.closest("ul,ol");
+            $("li", $ul).addClass("fragment");
+            $a.closest("li").detach();
+            $a.detach();
+        }
+        // =========================================
+        else if(cmd[0] == "nobullet" || cmd[0] == "nobullets") {
+            var $ul = $a.closest("ul");
+            $ul.css({"list-style": "none"});
+            $a.closest("li").detach();
+            $a.detach();
+        }
+    }
+
+    function masonry($slide) {
+        var container = $(".masonry", $slide);
+
+        if(container.size() > 0) {
+            var w = parseInt(container.attr("width"));
+            var h = parseInt(container.attr("height"));
+            var n = container.attr("columns");
+            var border = container.attr("border");
+            if(n)
+                n = parseInt(n);
+            else
+                n = 3;
+            var colWidth = 1/n * 100;
+            container.css({
+                width: w,
+                height: h,
+                margin: "10px auto"
+            });
+            container.children().each(function() {
+                var $this = $(this);
+                var span = $this.attr("span");
+                if(span)
+                    span = parseInt(span);
+                else
+                    span = 1;
+                $this.css("width", (span * colWidth) + "%");
+
+                if(border) $this.css("border", border);
+            });
+            container.masonry();
+            container.removeClass("masonry").addClass("done-masonry");
+        } else {
+            ;
+        }
     }
 
     $(".slides section").each(function() {
@@ -162,6 +213,13 @@
         if($a.text() == "!") {
             processCmd($a);
         }
+    });
+
+    Reveal.addEventListener('slidechanged', function(e) {
+        masonry(e.currentSlide);
+    });
+    Reveal.addEventListener('ready', function(e) {
+        masonry(e.currentSlide);
     });
 
     // ======== duplicate heading if necessary ==============

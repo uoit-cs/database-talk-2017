@@ -5,15 +5,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>Outline of the talk</title>
 
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//css/bootstrap.css">
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//css/fonts/fonts.css">
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//css/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//reveal.js/css/reveal.css">
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//reveal.js/css/theme/white.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/fonts/fonts.css">
+        <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/reveal.js/css/reveal.css">
+        <link rel="stylesheet" href="/reveal.js/css/theme/white.css">
 
 		
         
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//reveal.js/lib/css/github.css">
+        <link rel="stylesheet" href="/reveal.js/lib/css/github.css">
 
 		
 		<script>
@@ -26,12 +26,12 @@
 			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-            link.href = window.print_pdf ? 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/css/print/pdf.css' : 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/css/print/paper.css';
+            link.href = window.print_pdf ? '/reveal.js/css/print/pdf.css' : '/reveal.js/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//css/reveal-style.css">
-        <link rel="stylesheet" href="https://uoit-cs.github.io/database-talk-2017//style.css">
+        <link rel="stylesheet" href="/css/reveal-style.css">
+        <link rel="stylesheet" href="/style.css">
 	</head>
 	<body>
         <div class="reveal" type="slide">
@@ -131,19 +131,20 @@
             </div>
         </div>
 
-        <script src="https://uoit-cs.github.io/database-talk-2017//js/jquery-2.2.1.min.js"></script>
-        <script src="https://uoit-cs.github.io/database-talk-2017//js/pdf.js"></script>
-        <script src="https://uoit-cs.github.io/database-talk-2017//js/clipboard.min.js"></script>
+        <script src="/js/jquery-2.2.1.min.js"></script>
+        <script src="/js/masonry.pkgd.min.js"></script>
+        <script src="/js/pdf.js"></script>
+        <script src="/js/clipboard.min.js"></script>
 
 
         
-        <script src="https://uoit-cs.github.io/database-talk-2017//js/sql.js"></script>
+        <script src="/js/sql.js"></script>
         
 
-        <script src="https://uoit-cs.github.io/database-talk-2017//reveal.js/lib/js/head.min.js"></script>
-        <script src="https://uoit-cs.github.io/database-talk-2017//reveal.js/js/reveal.js"></script>
+        <script src="/reveal.js/lib/js/head.min.js"></script>
+        <script src="/reveal.js/js/reveal.js"></script>
 
-        <script src="https://uoit-cs.github.io/database-talk-2017//script.js"></script>
+        <script src="/script.js"></script>
 
         
 
@@ -244,24 +245,25 @@
 
 				
 				dependencies: [
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/notes/notes.js', async: true },
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/highlight/highlight.js', 
+                    {src: '/reveal.js/plugin/notes/notes.js', async: true },
+                    {src: '/reveal.js/plugin/highlight/highlight.js', 
                         async: true, 
                         callback: function() { hljs.initHighlightingOnLoad(); } 
                     },
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/hljslinenumber/index.js', async: true},
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/math/math.js', async: true },
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/multicolumn/multicolumn.js', async: true },
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/kensextensions/main.js', async: true },
-                    {src: 'https:\/\/uoit-cs.github.io\/database-talk-2017\//reveal.js/plugin/pdfviewer/pdfviewer.js', async: true},
+                    {src: '/reveal.js/plugin/hljslinenumber/index.js', async: true},
+                    {src: '/reveal.js/plugin/math/math.js', async: true },
+                    {src: '/reveal.js/plugin/multicolumn/multicolumn.js', async: true },
+                    {src:
+                        '/reveal.js/plugin/kensextensions/main.js', async: false },
+                    {src: '/reveal.js/plugin/pdfviewer/pdfviewer.js', async: true},
                     
                 ],
 			});
-            Reveal.addEventListener('ready', function() {
+            Reveal.addEventListener('ready', function(e) {
                 console.debug("Ready to reveal");
                 $slides.animate({
                     opacity: 1.0,
-                });
+                }, 1000);
                 if(window.myEvents) myEventReady(window.myEvents);
             });
 

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Database Systems</title>
-    <link>https://uoit-cs.github.io/database-talk-2017/</link>
+    <link>/</link>
     <description>Recent content on Database Systems</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://uoit-cs.github.io/database-talk-2017/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title></title>
-      <link>https://uoit-cs.github.io/database-talk-2017/footer/</link>
+      <link>/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoit-cs.github.io/database-talk-2017/footer/</guid>
+      <guid>/footer/</guid>
       <description>&lt;div class=&#34;footer&#34;&gt;
     Computer Science, Faculty of Science, UOIT &lt;span class=&#34;fa fa-copyright&#34;&gt;&lt;/span&gt;, 2017
 &lt;/div&gt;
@@ -22,10 +22,10 @@
     
     <item>
       <title></title>
-      <link>https://uoit-cs.github.io/database-talk-2017/header/</link>
+      <link>/header/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoit-cs.github.io/database-talk-2017/header/</guid>
+      <guid>/header/</guid>
       <description>&lt;style&gt;
     body {
         padding: 60px 30px;
@@ -72,10 +72,10 @@
     
     <item>
       <title>Outline of the talk</title>
-      <link>https://uoit-cs.github.io/database-talk-2017/lessons/01-outline/</link>
+      <link>/lessons/01-outline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoit-cs.github.io/database-talk-2017/lessons/01-outline/</guid>
+      <guid>/lessons/01-outline/</guid>
       <description>
 
 &lt;h1 id=&#34;a-brief-history-of-data-science&#34;&gt;A brief history of &lt;em&gt;Data Science&lt;/em&gt;&lt;/h1&gt;
@@ -154,11 +154,349 @@
     </item>
     
     <item>
-      <title>The history and innovation of data generation</title>
-      <link>https://uoit-cs.github.io/database-talk-2017/lessons/02-history/</link>
+      <title>The Information Age</title>
+      <link>/lessons/03-digital/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://uoit-cs.github.io/database-talk-2017/lessons/02-history/</guid>
+      <guid>/lessons/03-digital/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-information-age&#34;&gt;The Information Age&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;what-drives-us-toward-data&#34;&gt;What drives us toward data?&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;fragments&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;nobullet&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Money&lt;/li&gt;
+&lt;li&gt;Power&lt;/li&gt;
+&lt;li&gt;Social movements&lt;/li&gt;
+&lt;li&gt;Human life&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;break&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;middle&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; Let&amp;rsquo;s talk about the exciting digital age that started in 1960&amp;rsquo;s.&lt;/p&gt;
+
+&lt;h1 id=&#34;chapter-1-the-money&#34;&gt;Chapter 1: The money&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1960-1990&#34;&gt;1960 - 1990&lt;/h2&gt;
+
+&lt;h1 id=&#34;1960-1980-individualism-and-consumerism&#34;&gt;1960-1980: Individualism and Consumerism&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Every person was to have several banking accounts.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every person was to have several credit cards.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Every person was to have several reward cards.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; For the first time, the &lt;strong&gt;BANKS&lt;/strong&gt; had exceeded the data capacity of
+human-machine systems.&lt;/p&gt;
+
+&lt;h1 id=&#34;1960-1980-computer-science-to-the-rescue&#34;&gt;1960-1980: Computer Science to the rescue&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 4:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The start-up was&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;fragment&#34; src=&#34;ibm.png&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_6&#34;&gt;____________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;innovation-1&#34;&gt;Innovation #1&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1966: IBM &lt;strong&gt;IMS&lt;/strong&gt; (&lt;em&gt;Information Management System&lt;/em&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hierarchical database&lt;/li&gt;
+&lt;li&gt;Special hardware designed to support IMS: IBM 2740, System/360&lt;/li&gt;
+&lt;li&gt;Special operating system designed to support the hardwares, z/OS&lt;/li&gt;
+&lt;li&gt;IMS &lt;strong&gt;is&lt;/strong&gt; still in production &lt;strong&gt;today&lt;/strong&gt;, with support for Java, JDBC
+and interfaces to the Web and mobile devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;note 5&#34;&gt;!&lt;/a&gt; &lt;img src=&#34;1970 mainframe.jpg&#34; width=&#34;100%&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_8&#34;&gt;______________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;innovation-2&#34;&gt;Innovation #2&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 7:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1970: IBM &lt;strong&gt;System/R&lt;/strong&gt; and &lt;strong&gt;SQL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Algorithms from System/R is still used in the design of Google Big Data.&lt;/li&gt;
+&lt;li&gt;One of many descedents of System/R is SQLite, the embedded database in
+100 millions mobile devices.&lt;/li&gt;
+&lt;li&gt;The special &lt;strong&gt;query language&lt;/strong&gt; SQL was designed in 1974, and it is still
+being used by Google, Facebook and millions of software developers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div style=&#34;display:flex&#34;&gt;
+    &lt;div style=&#34;flex:1&#34;&gt;
+        &lt;img src=&#34;1970 - jim.jpg&#34; height=240&gt;&lt;/img&gt;
+        &lt;p&gt;Jim Gray: Relational Database&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div style=&#34;flex:1&#34;&gt;
+        &lt;img src=&#34;1974 - don.jpg&#34; height=240&gt;&lt;/img&gt;
+        &lt;p&gt;Don Chamberlin: SQL&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_10&#34;&gt;_______________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;innovation-3&#34;&gt;Innovation #3&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 7:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;1977: Oracle&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The most successful enterprise database product.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Holds ownership of&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Java&lt;/strong&gt;: the most popular programming language&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MysQL&lt;/strong&gt;: the most popular database to power Web apps&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1977 - oracle.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;p&gt;Founders of Oracle: Larry Ellison, Lawrence Joseph&lt;/p&gt;
+
+&lt;h1 id=&#34;the-consequence&#34;&gt;The Consequence&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;middle&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; These computer scientists were heros that created possibilities never
+seen before in history.&lt;/p&gt;
+
+&lt;h1 id=&#34;1990-us-corporations&#34;&gt;1990: US Corporations&lt;/h1&gt;
+
+&lt;h2 id=&#34;star-alliance&#34;&gt;Star Alliance&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 4:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;27 + 40 different &lt;strong&gt;airline&lt;/strong&gt; companies sharing a single pool of customers.&lt;/li&gt;
+&lt;li&gt;Established in 1997&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1990 - star alliance.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_15&#34;&gt;_________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;walmart&#34;&gt;Walmart&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 5:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The first department that recognized the &lt;strong&gt;competitive&lt;/strong&gt; advantage of
+&lt;strong&gt;data&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Every transaction since 1990 has been permanently archived for analysis.&lt;/li&gt;
+&lt;li&gt;Went &lt;strong&gt;international&lt;/strong&gt; in 1990.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+&lt;img src=&#34;1990 - walmart 1.jpg&#34; width=500&gt;&lt;/img&gt;
+&lt;img src=&#34;1990 - walmart 2.jpg&#34; 
+    width=500 
+    style=&#34;position:relative; top:-150px&#34;&gt;&lt;/img&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_17&#34;&gt;_______________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;air-miles-and-other-reward-programs&#34;&gt;Air Miles and other reward programs&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 5:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Founded in 1992&lt;/li&gt;
+&lt;li&gt;Created the first large-scale social networks involving customers and
+businesses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;1992 - air miles.jpg&#34;&gt;&lt;/img&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;the-market&#34;&gt;The &lt;strong&gt;Market&lt;/strong&gt;&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 5:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outcry trading before 1980s&lt;/li&gt;
+&lt;li&gt;Electronic trading terminals starting in 1988&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;div&gt;
+    &lt;img width=500 src=&#34;1980 - outcry trading.jpg&#34;&gt;&lt;/img&gt;
+    &lt;img style=&#34;position:relative; 
+                top:-100px; left:100px;
+                opacity: 0.7&#34;
+         width=500 src=&#34;1980 - trading.jpg&#34;&gt;&lt;/img&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;chapter-2-power&#34;&gt;Chapter 2: Power&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;highlight&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;1990-power-to-technology&#34;&gt;1990 - ? : Power to Technology&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;nobullet&#34;&gt;!&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;comfort&#34;&gt;!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The world was &lt;strong&gt;so transformed&lt;/strong&gt; by the ability to archive and process data,
+virtually all sectors of socity became &lt;strong&gt;data centric&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Almost all of technology was dedicated to &lt;strong&gt;data&lt;/strong&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; The world was hold hostage by technology.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_22&#34;&gt;_____________________________________&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 5:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;technology-companies-became-powerful&#34;&gt;Technology companies became &lt;strong&gt;powerful&lt;/strong&gt;.&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;1990-2000&#34;&gt;1990 - 2000&lt;/h2&gt;
+
+&lt;div class=&#34;masonry&#34; columns=3 width=500 height=400 border=&#34;3px solid white&#34;&gt;
+    &lt;img src=&#34;apple.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;compaq.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;dell.jpg&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;gateway.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;hp.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;ibm.png&#34; span=2&gt;&lt;/img&gt;
+    &lt;img src=&#34;intel.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;microsoft.png&#34;&gt;&lt;/img&gt;
+    &lt;img src=&#34;oracle.png&#34;&gt;&lt;/img&gt;
+&lt;/div&gt;
+
+&lt;h1 id=&#34;toc_25&#34;&gt;_____________________________________&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Technology for &lt;strong&gt;everyone&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Personal computers&lt;/li&gt;
+&lt;li&gt;Gaming&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Telecommunication&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1990: 2,400 bits/s&lt;/li&gt;
+&lt;li&gt;1995: 19,200 bits/s&lt;/li&gt;
+&lt;li&gt;2000: 1,000,000 bits/s&lt;/li&gt;
+&lt;li&gt;2010: 5,000,000 bits/s&lt;/li&gt;
+&lt;li&gt;2017: 25,000,000 bits/s (ten thousand times improvement)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_26&#34;&gt;____________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;a-new-wave-of-data-explosion&#34;&gt;A new wave of data explosion&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;columns 6:&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1990: Emails (1,000 universities)&lt;/li&gt;
+&lt;li&gt;2000: Web pages&lt;/li&gt;
+&lt;li&gt;2010: Blogs&lt;/li&gt;
+&lt;li&gt;2017: Instagram / Twitter / Youtube / Facebook&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;split&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 exabyte = $10^18$ bytes&lt;/li&gt;
+&lt;li&gt;Global data volume reached 800 exabytes in 2009&lt;/li&gt;
+&lt;li&gt;Google holds over 10 exabytes  of data.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;toc_28&#34;&gt;___________________________________&lt;/h1&gt;
+
+&lt;h2 id=&#34;examples-of-exabytes&#34;&gt;Examples of exabytes&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; If we write done &lt;strong&gt;every word&lt;/strong&gt; spoken or written since the beginning
+of writing (&lt;em&gt;remember the &lt;b&gt;clay tablets&lt;/b&gt;&lt;/em&gt;?), it is &lt;strong&gt;5 exabytes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; One exabyte can hold &lt;strong&gt;100,000 $\times$&lt;/strong&gt; all printed material in the
+&lt;strong&gt;Library of Congress&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;strong&gt;Cellphones&lt;/strong&gt; exchange &lt;strong&gt;75 exabytes&lt;/strong&gt; of data each year.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; One gram of &lt;strong&gt;DNA&lt;/strong&gt; can hold &lt;strong&gt;455 exabytes&lt;/strong&gt; of information.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The history and innovation of data generation</title>
+      <link>/lessons/02-history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/lessons/02-history/</guid>
       <description>
 
 &lt;h1 id=&#34;the-history&#34;&gt;The History&lt;/h1&gt;
@@ -443,7 +781,7 @@ reasoning system.&lt;/p&gt;
 &lt;li&gt;&lt;p&gt;Data analysis&lt;/p&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;By performing &lt;strong&gt;massive data mining&lt;/strong&gt;, patterns are used to decode the secret
+&lt;p&gt;By performing &lt;strong&gt;massive data mining&lt;/strong&gt;, patterns are used to &lt;strong&gt;decode&lt;/strong&gt; the secret
 messages.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;/li&gt;
 
@@ -454,7 +792,8 @@ messages.&lt;/p&gt;
 &lt;/blockquote&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; Read the &lt;strong&gt;red&lt;/strong&gt; words, and you think we are talking about 2017.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;strong&gt;Mass surveillience&lt;/strong&gt; / &lt;em&gt;intercepts&lt;/em&gt; &lt;strong&gt;encrypted messages&lt;/strong&gt; /
+&lt;strong&gt;data mining&lt;/strong&gt; / &lt;strong&gt;decode&lt;/strong&gt; in 1940, WWII&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;scale 0.9&#34;&gt;!&lt;/a&gt;&lt;/p&gt;
 
@@ -481,6 +820,44 @@ center; font-size: 145px;&#34;&gt;1945&lt;/h2&gt;
 
 &lt;p&gt;Behind: &lt;strong&gt;EDVAC the first general purpose computer&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;box&#34;&gt;!&lt;/a&gt; &lt;i class=&#34;fa fa-info-circle&#34;&gt;&lt;/i&gt; Global data volume $&amp;gt; 1$ TB&lt;/p&gt;
+
+&lt;h1 id=&#34;review-3000-b-c-1950&#34;&gt;Review: 3000 B.C. - 1950&lt;/h1&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Time period&lt;/th&gt;
+&lt;th&gt;Data source&lt;/th&gt;
+&lt;th&gt;Data processor&lt;/th&gt;
+&lt;th&gt;Data consumption&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;3000 BC - 1800s A.D.&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1890 - 1920&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;td&gt;Mechanical&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1920 - 1950&lt;/td&gt;
+&lt;td&gt;Huamn, Electronic&lt;/td&gt;
+&lt;td&gt;Electro-mechanical&lt;/td&gt;
+&lt;td&gt;Human&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
