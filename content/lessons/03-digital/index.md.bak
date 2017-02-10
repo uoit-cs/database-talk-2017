@@ -32,7 +32,7 @@ What drives us toward data?
 ## 1960 - 1990
 
 
-1960-1980: Individualism and Consumer-ism
+1960-1980: Individualism and Consumerism
 =========================================================
 
 - Every person was to have several banking accounts.
@@ -70,7 +70,7 @@ The start-up was...
     > - [!](comfort)
     > - Hierarchical database
     > - Special hardware designed to support IMS: IBM 2740, System/360
-    > - Special operating system designed to support the hardware, z/OS
+    > - Special operating system designed to support the hardwares, z/OS
     > - IMS **is** still in production **today**, with support for Java, JDBC
     > and interfaces to the Web and mobile devices.
 
@@ -362,7 +362,7 @@ Database systems of the new millennium
 
 - Each device is running multiple databases (**SQLite**).
 
-- Data is then uploaded to data centers (**Millennia databases**).
+- Data is then uploaded to data centers (**Millennial databases**).
 
 [!](split)
 
@@ -466,7 +466,7 @@ Database systems of the new millennium
 
 [!](columns 10:)
 
-#### Privacy Against Surveillance
+#### Privacy Against Survellience
 
 > [!](note 8)
 > <img src="2013 - snowden.jpg"></img>
