@@ -43,7 +43,7 @@ What drives us toward data?
 
 ----
 
-[!](box) For the first time, the **BANKS** had exceeded the data capacity of
+[!](box) For the first time, **banks** had exceeded the data capacity of
 human-machine systems.
 
 
@@ -119,7 +119,7 @@ The start-up was...
     > - Holds ownership of 
     >
     >     1. **Java**: the most popular programming language
-    >     2. **MysQL**: the most popular database to power Web apps
+    >     2. **MySQL**: the most popular database to power Web apps
 
 [!](split)
 
